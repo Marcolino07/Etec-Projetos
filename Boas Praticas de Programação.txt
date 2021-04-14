@@ -1,0 +1,22 @@
+Manual de boas praticas de programação
+
+1 – Identar o código.
+Considero a identação de código um dos itens mais básicos e ao mesmo tempo importante para um programador, sendo ele iniciante ou avançado.
+O fato de identificarmos o escopo de condições IF, WHILE e etc., facilita muito entendimento do código,
+além de deixar mais bonito.
+
+
+2 – Nomear variáveis de maneira intuitiva.
+Um comentário detalhando o objetivo do método ou função, seus parâmetros de entrada e de saída podem ajudar em manutenções futuras desse código, principalmente se a manutenção for de um profissional que não conhece o sistema.
+
+
+3 – Comentar o código.
+Existem algumas literaturas que criticam a prática de comentar o código, pois acaba aumentando a quantidade de linhas e enchendo o código com sujeira, no livro “Código Limpo” o autor defende que variáveis e métodos bem nomeados são as melhores documentações e tiram a necessidade dos comentários.
+
+
+4 – Não usar valor padrão em argumentos de funções.
+Quando escrevemos uma função que necessita receber argumentos de entrada as vezes sentimos a necessidade de deixar um valor padrão nesse argumento, mas garanto que nem mesmo quem escreveu a função vai lembrar desse valor padrão quando precisar debugar em erro, imagine outro programador.
+
+
+5 – Padronizar nome das constantes
+Uma boa prática é definir um padrão para o nome das constantes sempre em caixa alta, isso ajuda a identifica-las no meio do código, claro que se o programador tiver o costume de nomear variáveis em caixa alta também aí não tem sentido essa prática das constantes.
